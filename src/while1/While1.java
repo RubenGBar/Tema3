@@ -33,6 +33,7 @@ public class While1 {
 		//Después de termianr el bucle muestro el resultado total de la suma
 		System.out.println("El resultado de la suma es: " + suma);
 		
+		
 		//Cierro el Scanner
 		sc.close();
 	}

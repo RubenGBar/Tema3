@@ -34,6 +34,7 @@ public class While2 {
 		//Cuando termine el bucle muestro las veces que ha iterado
 		System.out.println("Ha introducido " + cont + " número/s positivo/s");
 		
+		
 		//Cierro el Scanner
 		sc.close();
 	}
