@@ -31,8 +31,7 @@ public class While3 {
 			//Leo el valor de numero del teclado
 			numero = sc.nextInt();
 			
-			cont++; //Aumento cont por cada iteración del bucle
-			
+			cont++; //Aumento cont por cada iteración del bucle	
 		}
 		
 		//Después de termianr el bucle muestro el resultado de la media
