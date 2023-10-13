@@ -28,7 +28,7 @@ public class While2 {
 			num1 = sc.nextInt();
 			
 			//Voy sumando la variable cont para saber cuantos número positivos ha introducido
-			cont = cont+1;
+			cont++;
 		}
 		
 		//Cuando termine el bucle muestro las veces que ha iterado
