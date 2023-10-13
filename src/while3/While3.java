@@ -1,12 +1,14 @@
-package while1;
+package while3;
 
 import java.util.Scanner;
 
-public class While1 {
+public class While3 {
 	public static void main(String[] args) {
 		
-		//Declaro las variables donde sumaré los números y donde los voy a guardar
-		int suma = 0, numero;
+		/*Declaro las variables donde sumaré los números y donde los voy a guardar, otra donde 
+		haré la media y un contandor para poder hacer la media y lo inicializo en 1 ya que le pido 
+		el primer número fuera del bucle*/
+		int suma = 0, numero, cont=1;
 		
 		//Creo el Scanner
 		Scanner sc = new Scanner(System.in);
@@ -28,11 +30,13 @@ public class While1 {
 			
 			//Leo el valor de numero del teclado
 			numero = sc.nextInt();
+			
+			cont++; //Aumento cont por cada iteración del bucle
+			
 		}
 		
-		//Después de termianr el bucle muestro el resultado total de la suma
-		System.out.println("El resultado de la suma es: " + suma);
-		
+		//Después de termianr el bucle muestro el resultado de la media
+		System.out.println("El resultado de la media es: " + suma/cont);
 		
 		//Cierro el Scanner
 		sc.close();
