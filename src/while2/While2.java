@@ -6,7 +6,7 @@ public class While2 {
 	public static void main(String[] args) {
 	
 		/*Declaro las variables donde guardo el número que introduce el usuario, una para sumar los números dentro del bucle
-		y otra para ir aumentandola por cada iteración del bucle*/
+		y otra para el contador*/
 		int num1, cont = 0;
 		
 		//Creo el Scanner
