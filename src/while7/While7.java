@@ -72,6 +72,7 @@ public class While7 {
 			System.out.println("El valor introducido es erróneo");
 		}
 		
+		//Cierro el Scanner
 		sc.close();
 	}
 
