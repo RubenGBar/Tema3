@@ -18,7 +18,7 @@ public class While4 {
 		numero = sc.nextInt();
 		
 		//Creo el condicional para comprobar si el número es par o impar
-		if (numero == 0) {//Si es cero muestra que es par y termina el programa (no puedo utilizar break porqu no estoy en un while o switch)
+		if (numero == 0) {//Si es cero muestra que es par y termina el programa
 			System.out.println("El número es par");
 			System.exit(0);
 		}else if (numero%2 == 0) {//Si se cumple la condición muestra que el número es par
