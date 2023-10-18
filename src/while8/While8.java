@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class While8 {
 	public static void main(String[] args) {
 		
-		//Creo las variables donde guardo el árbol introducido y el árbol más alto
+		//Declaro las variables donde guardo el árbol introducido y el árbol más alto
 		int arbolIntroducido = 0, arbolGuardar = 0;
 		
 		//Creo el Scanner
